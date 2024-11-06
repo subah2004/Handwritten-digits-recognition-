@@ -1,6 +1,6 @@
 # 🖊️ Handwritten Digit Recognition - MNIST and EMNIST 🖊️
 
-This project is a convolutional neural network (CNN) model for recognizing handwritten digits and characters. Using the MNIST and EMNIST datasets, it accurately classifies digit and letter images. The model leverages PyTorch for building and training the CNN, achieving efficient and accurate classification.
+This project is a convolutional neural network (CNN) model for recognizing handwritten digits and characters. Using the MNIST and EMNIST datasets, it accurately classifies digit images. The model leverages PyTorch for building and training the CNN, achieving efficient and accurate classification.
 
 ## 📜 Table of Contents
 - [Project Overview](#project-overview)
@@ -23,7 +23,7 @@ Handwritten digit recognition is an essential task in computer vision, used in a
 The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9), each 28x28 pixels. It’s widely used as a benchmark in machine learning and deep learning tasks.
 
 ### EMNIST
-The EMNIST dataset extends MNIST by including letters and is organized into several splits. This project focuses on the EMNIST Digits and Letters splits to handle both digit and character recognition.
+The EMNIST dataset extends MNIST by including digits and is organized into several splits. This project focuses on the EMNIST Digits splits to handle digit recognition.
 
 ## 🏗️ Model Architecture
 
